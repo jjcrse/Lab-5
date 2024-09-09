@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner con Búsqueda</title>
+    <link rel="stylesheet" href="Lab 5.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="pngtree-gold-chain-cartoon-png-image_6979299.png" alt="logo de la compañía">
+            <h2 class="nombre-empresa">Luxury Store</h2>
+        </a>
+        <nav>
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">About us</a>
+            <a href="" class="nav-link">Contact us</a>
+        </nav>
+        <ul>
+            <li><a href="Pagina zapato/Pagina zapato.html">Productos</a></li>
+        </ul>
+        <!-- Barra de búsqueda añadida -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </div>
+    </header>
+    
+    <div class="contenedor">
+        <div class="container">
+            <div class="product">
+                <ul><li><a href="Pagina zapato/Pagina zapato.html">Productos</a></li>
+                <h3>Shoes</h3>
+                <img src="file (16).png" alt="Product 1">
+            </div>
+            <div class="product">
+                <h3>Colombian T-shirt</h3>
+                <img src="file (2).png" alt="Product 2">
+            </div>
+            <div class="product">
+                <h3>Molten Ball</h3>
+                <img src="file (9).png" alt="Product 3">
+            </div>
+        </div>
+    </div>   
+
+<section>
+        <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Licras-ASICS-Icon-Sprinter---Masculino---Negro.webp" alt="">
+                        <p class="descripcion">Sprinter ASICS</p>
+                        <span class="precio"> 45$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Tenis-ASICS-GEL-Rocket-11---Masculino---Negro.webp" alt="">
+                        <p class="descripcion">ASICS Shoes</p>
+                        <span class="precio"> 405$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Buzo-ASICS-Sweat-Full-Zip-Hoodie---Masculino---Negro.webp" alt="">
+                        <p class="descripcion">ASICS Hoddie</p>
+                        <span class="precio"> 95$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Camiseta-ASICS-ASICS-Hex-Graphic-Dry-SS-Tee---Masculino---Celeste.webp" alt="">
+                        <p class="descripcion">ASICS Drill</p>
+                        <span class="precio"> 105$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Morral.webp" alt="">
+                        <p class="descripcion">Bag ASICS</p>
+                        <span class="precio"> 105$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Falda asics.webp" alt="">
+                        <p class="descripcion">ASICS Skirt</p>
+                        <span class="precio"> 65$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)"> 
+                    <div class="contenedor-foto">
+                        <img src="./Top MUJER  ASICS.webp" alt="">
+                        <p class="descripcion">ASICS Women top</p>
+                        <span class="precio"> 25$</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./Buzo mujer asics.webp" alt="">
+                        <p class="descripcion">ASICS Women Hoodie</p>
+                        <span class="precio"> 98$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="selecciona" id="seleccion">
+            <div class="cerrar">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="./Licras-ASICS-Icon-Sprinter---Masculino---Negro.webp" alt="">
+                <h2 id="modelo" ASICS SPRINTER></h2>
+                <p id="descripcion" The best Sprinter for your health></p>
+                <span class="precio" id="precio"> 150$</span>
+
+                <div class="fila">
+                    <dive class="sive">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">46</option>
+                            <option value="">48</option>
+                        </select>
+                    </dive>
+                    <button>Add to kart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+</body>
+</html>
